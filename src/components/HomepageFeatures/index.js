@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const FeatureList = [
   /*{
@@ -25,7 +26,7 @@ const FeatureList = [
   },*/  
   {
     title: 'About Me',
-    ImgSrc: require('/home/hivemind/Projects/Portfolio-Site/tom-docs/static/img/about-me.jpg').default,
+    ImgSrc: require('@site/static/img/about-me.jpg').default,
     description: (
       <>
       	<p>
