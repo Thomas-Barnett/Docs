@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Intro'
+sidebar_position: 1
 ---
 import DataCenter from './Intro-images/Cyber-Green-Data-Center.jpeg';
 
