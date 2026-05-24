@@ -1,0 +1,15 @@
+---
+sidebar_name: Helpful PowerShell Cmdlets
+---
+
+## Helpful PowerShell Cmdlets (and what they do)
+
+---
+
+### See All Listening Ports
+
+**Use Case:** You are a consultant walking into a Windows environment, There are on-prem servers that host applications you aren't familiar with. You are troubleshooting a workstation that has the app client installed. The app is giving you trouble, it seems like it is trying to reach a server but the destination port or ip address is off. The documentation for this program is missing, out-of-date, ect. You find the host that appears to be the application server. You want to take a quick look at the ports that listening on this. This information will help guide further troubleshooting and give use insight into what is going on. The command below will show us the: **IP, PORT, STATE, and PROCESS ID**
+
+```
+netstat -ano | findstr LISTENING
+```
