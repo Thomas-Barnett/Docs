@@ -384,10 +384,11 @@ sudo nano /etc/asterisk/asterisk.conf
 ```
 ### Then explicitly verify/change:
 
-OLD (bad)
+```OLD (bad)
 [directories](!)
 NEW (required)
 [directories]
+```
 
 ## Verify Active Runtime Directories
 
